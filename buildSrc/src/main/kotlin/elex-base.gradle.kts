@@ -3,8 +3,8 @@ plugins {
 }
 
 group = "com.elex-project"
-version = "1.0-SNAPSHOT"
-description = ""//todo
+version = "1.1.0"
+description = "2-D Geometry"
 
 repositories {
 	maven {
@@ -29,12 +29,12 @@ configurations {
 }
 
 tasks.jar {
-	manifest { // todo
+	manifest {
 		attributes(mapOf(
 			"Implementation-Title" to project.name,
 			"Implementation-Version" to project.version,
 			"Implementation-Vendor" to "ELEX co.,pte.",
-			"Automatic-Module-Name" to "com.elex_project.${project.name}"
+			"Automatic-Module-Name" to "com.elex_project.goblin"
 		))
 	}
 }

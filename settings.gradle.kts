@@ -1,2 +1,2 @@
 rootProject.name = "goblin"
-include("lib", "app")
+include("geom-2d", "app")
